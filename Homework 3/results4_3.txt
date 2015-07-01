@@ -1,0 +1,19 @@
+Tester:     weka.experiment.PairedCorrectedTTester
+Analysing:  Percent_incorrect
+Datasets:   1
+Resultsets: 1
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       6/17/15 7:59 AM
+
+
+Dataset                   (1) trees.J48 '-C 0.
+----------------------------------------------
+heart                    (300)   22.25(6.70) |
+----------------------------------------------
+(v/ /*)                                      |
+
+
+Key:
+(1) trees.J48 '-C 0.25 -M 2' -217733168393644444
+

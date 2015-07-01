@@ -1,0 +1,94 @@
+Thomas Huzij
+tph2109@columbia.edu
+Homework 1
+
+Files submitted:
+README (this file)
+Report.pdf (main report)
+TESTRUNS (test runs)
+AbstractAgent.java
+AbstractEnvironment.java
+Action.java
+ActionsFunction.java
+Agent.java
+AgentProgram.java
+AndOrSearch.java
+DefaultStepCostFunction.java
+DynamicAction.java
+DynamicPercept.java
+Environment.java
+EnvironmentObject.java
+EnvironmentState.java
+EnvironmentView.java
+EnvironmentViewNotifier.java
+FullyObservableVacuumEnvironmentPercept.java
+GoalTest.java
+IfStateThenPlan.java
+LocalVacuumEnvironmentPercept.java
+Metrics.java
+NondeterministicProblem.java
+NondeterministicVacuumAgent.java
+NoOpAction.java
+ObjectWithDynamicAttributes.java
+Path.java
+Percept.java
+PerceptToStateFunction.java
+Plan.java
+ReflexVacuumAgent.java
+ResultFunction.java
+ResultsFunction.java
+Simulator.java
+StepCostFunction.java
+VacuumEnvironment.java
+VacuumEnvironmentState.java
+
+2.8)
+
+How to compile:
+javac Simulator.java
+
+How to run:
+java Simulator
+
+These are files I added myself:
+Simulator.java
+
+These are files I significantly modified; methods I worked on should have
+documentation:
+VacuumEnvironment.java
+
+All of these files were modified only slightly; the packaging information was
+removed to allow for a flat directory hierarchy:
+AbstractAgent.java
+AbstractEnvironment.java
+Action.java
+ActionsFunction.java
+Agent.java
+AgentProgram.java
+AndOrSearch.java
+DefaultStepCostFunction.java
+DynamicAction.java
+DynamicPercept.java
+Environment.java
+EnvironmentObject.java
+EnvironmentState.java
+EnvironmentView.java
+EnvironmentViewNotifier.java
+FullyObservableVacuumEnvironmentPercept.java
+GoalTest.java
+IfStateThenPlan.java
+LocalVacuumEnvironmentPercept.java
+Metrics.java
+NondeterministicProblem.java
+NondeterministicVacuumAgent.java
+NoOpAction.java
+ObjectWithDynamicAttributes.java
+Path.java
+Percept.java
+PerceptToStateFunction.java
+Plan.java
+ReflexVacuumAgent.java
+ResultFunction.java
+ResultsFunction.java
+StepCostFunction.java
+VacuumEnvironmentState.java

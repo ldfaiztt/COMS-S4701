@@ -1,0 +1,12 @@
+New 636x401 grid with 0.479124 probability of dirt
+Agent's percept:
+[569,335, Clean]
+Agent's percept after moving left:
+[568,335, Dirty]
+New 5x5 grid with 0.900000 probability of dirt
+{0,0=Dirty, 0,1=Clean, 0,2=Clean, 0,3=Dirty, 0,4=Dirty, 1,0=Dirty, 1,1=Dirty, 1,2=Dirty, 1,3=Dirty, 1,4=Dirty, 2,0=Dirty, 2,1=Dirty, 2,2=Dirty, 2,3=Dirty, 2,4=Dirty, 3,0=Dirty, 3,1=Dirty, 3,2=Dirty, 3,3=Dirty, 3,4=Dirty, 4,0=Clean, 4,1=Dirty, 4,2=Dirty, 4,3=Dirty, 4,4=Dirty}
+New 2x2 grid:
+Dirty Clean
+Clean Dirty
+Set state of location (0, 0) to Clean
+{0,0=Clean, 0,1=Clean, 1,0=Clean, 1,1=Dirty}

@@ -1,0 +1,68 @@
+Thomas Huzij
+tph2109@columbia.edu
+Homework 3
+
+1) The provided dataset cleve.txt was already in a convenient comma-seperated
+format so it was just a matter of including it at the bottom of an .arff file
+after the @data declaration. Above all that all I needed to do was declare the
+relation, and a list of all the attributes in the dataset corresponding to
+every index in the comma-seperated list of values. The last declared attribute
+becomes the class identifier and must be nominal.
+
+2) This problem is just a matter of testing out Weka's experimenting
+capabilities. To carry this out, open Weka and click on the 'Experimenter'
+application. Click 'New', and then 'Add new...' under Datasets. Select the
+file cleve.arff and it should appear in the list of Datasets. Then click
+'Add new...' under Algorithms, 'Choose' in the window that pops up, and select
+the corresponding trees that are being experimented on (ADTree, RandomForest,
+etc) one at a time. After each one is selected, it should appear in the list
+of Algorithms. Finally, select a Results Destination for your experiment. Now go
+to the 'Run' tab, and click 'Start'. After some time it should complete running
+and you can proceed to the 'Analyse' tab. Here, click 'File' and select the file
+created by Weka; it should have the same filename as the one provided in the
+Results Destination under the 'Setup' tab. Select 'Percent_incorrect' under
+'Comparison Field', check off 'Show std. deviations', and click 'Perform test'.
+This should output an easy to read table in plaintext under the 'Test Output'.
+
+3) This problem is just a matter of using your output from problem 2 to generate
+a table for the report. See problem 2 for instructions on how to generate the
+output from the original dataset.
+
+4) This problem requires you to extend the table from problem 3. It is basically
+the same as problem 2 but requires a few slight changes when setting up the
+experiment. When adding new algorithms using 'Add new...' under 'Algorithms',
+instead of immediately clicking OK once the desired algorithm has been chosen,
+the number of iterations must be changed. The homework description specifies
+which field in this dialog window must be changed for each corresponding tree
+to modify the number of iterations (numFolds for C4.5, numIterations for
+Bagging, etc). This is really the only difference in generating the results,
+otherwise see problem 2 for the full details of this process.
+
+5) This problem is just a matter of using Weka's exporer capabilities. To carry
+this out, open Weka and click on the 'Explorer' application. Click 'Open file'
+and select the cleve.arff dataset. Now move to the 'Classify' tab, and select
+the appropriate algorithm using the 'Choose' button under 'Classifier'. The
+other settings should all be correct already so click 'Start' and results
+should be generated. Right click the result under the 'Result list' and click
+'Visualize tree'. This should open a window with a visual representation of the
+tree and you now have a sample tree. Repeat for any desired algorithm (ADTree,
+C4.5, etc).
+
+6) See report for discussion of results.
+
+Files submitted:
+README (this file)
+Report.pdf (main report)
+cleve.arff (Weka-compatible dataset)
+results2.arff (Weka-compatible results for problem 2, can load in Analyze tab)
+results2.txt (plaintext results for problem 2)
+results3.arff (Weka-compatible results for problem 3, can load in Analyze tab)
+results3.txt (plaintext results for problem 3)
+results4_1.arff (Weka-compatible results for problem 4, can load in Analyze tab)
+results4_1.txt (plaintext results for problem 4)
+results4_2.arff (more Weka-compatible results for problem 4)
+results4_2.txt (more plaintext results for problem 4)
+results4_3.arff (more Weka-compatible results for problem 4)
+results4_3.txt (more plaintext results for problem 4; note, changing the number
+of iterations for J48 did not affect the results at all so Weka merged all three
+versions of the algorithm into one)

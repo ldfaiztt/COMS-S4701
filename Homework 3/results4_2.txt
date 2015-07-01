@@ -1,0 +1,23 @@
+Tester:     weka.experiment.PairedCorrectedTTester
+Analysing:  Percent_incorrect
+Datasets:   1
+Resultsets: 5
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       6/17/15 7:56 AM
+
+
+Dataset                   (1) trees.RandomFo | (2) trees.Rando (3) trees.Rando (4) trees.Rando (5) trees.Rando
+--------------------------------------------------------------------------------------------------------------
+heart                    (100)   17.15(6.26) |   17.55(6.63)     17.35(6.33)     17.15(6.26)     17.92(6.55)  
+--------------------------------------------------------------------------------------------------------------
+                                     (v/ /*) |         (0/1/0)         (0/1/0)         (0/1/0)         (0/1/0)
+
+
+Key:
+(1) trees.RandomForest '-I 1000 -K 0 -S 1' -2260823972777004705
+(2) trees.RandomForest '-I 1000 -K 1 -S 1' -2260823972777004705
+(3) trees.RandomForest '-I 1000 -K 2 -S 1' -2260823972777004705
+(4) trees.RandomForest '-I 1000 -K 4 -S 1' -2260823972777004705
+(5) trees.RandomForest '-I 1000 -K 8 -S 1' -2260823972777004705
+
